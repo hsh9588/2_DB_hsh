@@ -126,3 +126,4 @@ FROM EMPLOYEE
 GROUP BY JOB_CODE
 HAVING COUNT(*) <= 5 -- HAVING절에는 그룹 함수가 반드시 작성된다.
 ORDER BY 1;
+
