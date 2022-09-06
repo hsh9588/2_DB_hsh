@@ -53,7 +53,7 @@ FROM EMPLOYEE;
 SELECT TRIM('     H E L L O     ')
 FROM DUAL; -- 양쪽 공백 제거
 
-SELECT TRIM('#' FROM '#####안녕#####') AS 잘가
+SELECT TRIM( '#' FROM '#####안녕#####') AS 잘가
 FROM DUAL;
 
 /* 숫자 관련 함수 */
@@ -72,6 +72,9 @@ WHERE ABS(10) = ABS(-10); -- WHERE절 함수 작성 가능
 
 SELECT EMP_NAME, SALARY, MOD(SALARY, 1000000)
 FROM EMPLOYEE;
+
+SELECT MOD(5, 3)
+FROM DUAL;
 
 -- EMPLOYEE 테이블에서 사번이 짝수인 사원의 사번, 이름 조회
 SELECT EMP_NAME, EMP_ID
@@ -145,6 +148,9 @@ CEIL(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) || '년차' AS "근무 년차"
 FROM EMPLOYEE;
 
 /* || : 연결 연산자(문자열 이어쓰기) */
+
+SELECT MONTHS_BETWEEN(SYSDATE, '2022-05-06') 
+FROM DUAL;
 
 -- ADD_MONTHS(날짜 , 숫자) : 날짜에 숫자만큼의 개월 수를 더함. (음수도 가능)
 
