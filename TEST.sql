@@ -33,12 +33,12 @@ ORDER BY	;	4
 
 -- JOIN
 
-SELECT		6
+SELECT			6
 FROM			1
 JOIN			2
 WHERE			3
 GROUP BY		4
-HAVING		5
+HAVING			5
 ORDER BY		7
 
 GROUP BY : 같은 값들이 여러개 기록된 컬럼을 가지고 같은 값들을 하나의 그룹으로 묶음
@@ -185,9 +185,3 @@ SQL 수행 시 매개변ㅅ로 전달할 필요가 없다.
 --- DAO 메서드에서 반환형이 List, 객체, int로 다른 이유
 --
 --- Java 객체 생성과 필드 초기화
-
-
-23123
-'23124'
-fsadf
-"asdfasdf fsadf"
