@@ -67,7 +67,7 @@ SELECT SYSDATE FROM DUAL;
 
 -- DUAL(DUmmy tAbLe ) 테이블 : 가짜 테이블(임시 조회용 테이블)
 
--- 날짜 + 산술 연산 ( +, -)
+-- 날짜 + 산술 연산 ( +, - )
 
 SELECT SYSDATE - 1, SYSDATE, SYSDATE + 1
 FROM DUAL;
