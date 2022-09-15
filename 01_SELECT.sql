@@ -11,7 +11,7 @@ TCL -> COMMIT, ROLLBACK			용도 : 트랙젝션 제어
 주요 데이터 타입
 NUMBER -> 숫자
 CHARACTER : CHAR		 -> 고정길이 문자 (최대 2000바이트)
-		  : CARCHAR2  -> 가변길이 문자 (최대 4000바이트)
+		  : VARCHAR2 	 -> 가변길이 문자 (최대 4000바이트)
 DATE -> 날짜
 LOB : CLOB -> 가변길이 문자 (최대 4기가 바이트)
     : BLOB -> Binary DATA
