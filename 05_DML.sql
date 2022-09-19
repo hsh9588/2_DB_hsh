@@ -239,7 +239,7 @@ SELECT * FROM EMP_M01;
 -- 테이블의 행을 삭제하는 구문
 
 -- [작성법]
--- DELTE FROM 테이블명 WHERE 조건설정
+-- DELETE FROM 테이블명 WHERE 조건설정
 -- 만약 WHERE 조건을 설정하지 않으면 모든 행이 다 삭제됨
 
 COMMIT;
