@@ -252,7 +252,7 @@ WHERE EMP_NAME = '장채현';
 
 -- EMPLOYEE2 테이블에서 이름이 '장채현'인 사원 정보 삭제
 
-DELETE EMPLOYEE2
+DELETE FROM EMPLOYEE2
 WHERE EMP_NAME = '장채현';
 
 -- 삭제 확인
